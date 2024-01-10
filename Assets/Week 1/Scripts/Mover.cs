@@ -15,7 +15,9 @@ public class Mover : MonoBehaviour
 
     public GameObject prefab;
     public float speed = 5f;
+    public float turrentSpeed = 5f;
     public Transform barrel;
+    public Transform barrelS;
     // Update is called once per frame
     void Update()
     {
@@ -24,7 +26,9 @@ public class Mover : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(prefab, barrel.position, barrel.rotation);
+            Instantiate(prefab, barrelS.position, barrelS.rotation);
         }
+        float turrentAngle = Input.GetAxis("Vertical");
+        barrel.Rotate(Vector3.forward, turrentAngle *turrentSpeed * Time.deltaTime);
     }
 }

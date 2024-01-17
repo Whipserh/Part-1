@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2504140618156074870}
   - component: {fileID: 6904249119983378907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tank_bulletFly3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 1758234471545216715}
   - component: {fileID: 7162845357916375391}
   - component: {fileID: 8912767632575414459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Missile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

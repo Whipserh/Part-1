@@ -10,16 +10,18 @@ public class Gate : MonoBehaviour
         
     }
     public GameObject on;
-
+    public GameObject gate;
     // Update is called once per frame
     void Update()
     {
         if (on.activeInHierarchy)
         {
-            gameObject.SetActive(false);
+            Debug.Log(on + " is on in hierarchy ");
+            gate.SetActive(false);
         }else
         {
-            gameObject.SetActive(true);
+            Debug.Log(on + "is not on in hier");
+            gate.SetActive(true);
         }
     }
 

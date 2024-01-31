@@ -16,13 +16,14 @@ public class Gate : MonoBehaviour
     {
         if (on.activeInHierarchy)
         {
-            Debug.Log(on + " is on in hierarchy ");
+            //Debug.Log(on + " is on in hierarchy ");
             gate.SetActive(false);
         }else
         {
-            Debug.Log(on + "is not on in hier");
+            //Debug.Log(on + "is not on in hier");
             gate.SetActive(true);
         }
+
     }
 
 }

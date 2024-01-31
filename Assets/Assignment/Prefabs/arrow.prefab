@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1301741990534503276}
   - component: {fileID: 2633561011595269481}
   - component: {fileID: 5822887491383407600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e694de880de8e404192da15f461ad1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 10
+  force: 20
 --- !u!50 &5822887491383407600
 Rigidbody2D:
   serializedVersion: 4
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6279329759000271429}
   - component: {fileID: 7689205939644294666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Triangle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2975859544437039464}
   - component: {fileID: 2640808338476958411}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Triangle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 343798687282696026}
   - component: {fileID: 3795181409726360222}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5673519096414333385}
   - component: {fileID: 3086170604546689219}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

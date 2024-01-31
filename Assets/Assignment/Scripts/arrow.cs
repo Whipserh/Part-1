@@ -7,11 +7,13 @@ public class arrow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         direction = new Vector2(1, 0);
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        
     }
 
-
+    
     private Rigidbody2D rigidbody;
     private Vector2 direction;
     // Update is called once per frame
@@ -29,7 +31,6 @@ public class arrow : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
-
+        Destroy(gameObject, 1);
     }
 }

@@ -27,7 +27,7 @@ public class target2 : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         //   Debug.Log("entered");
         if (off.activeInHierarchy)
@@ -36,5 +36,7 @@ public class target2 : MonoBehaviour
             off.SetActive(false);
             on.SetActive(true);
         }
+
     }
+
 }

@@ -15,13 +15,16 @@ public class gate3b : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (buttonPressed.activeInHierarchy)
         {
+            
             gate.SetActive(false);
         }else if (targetHit.activeInHierarchy)
         {
             gate.SetActive(true);
         }
+
 
     }
 }

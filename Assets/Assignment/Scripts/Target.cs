@@ -21,7 +21,7 @@ public class target : MonoBehaviour
 
     public GameObject on;
     public GameObject off;
-    private void OnCollisionEnter2D(Collision2D coliision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (on.activeInHierarchy)
         {
